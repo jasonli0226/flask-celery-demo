@@ -2,14 +2,14 @@
 
 Flask -> RabbitMQ -> Celery
 
+&nbsp;
+
 ## Setup
 
 ```bash
 pip install -r requirements.txt
 
 ```
-
-&nbsp;
 
 ## Command
 
@@ -19,4 +19,3 @@ celery -A app.celery worker --loglevel=info
 
 ```
 
-&nbsp;
